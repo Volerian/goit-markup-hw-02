@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.header-logo{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-navigation{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-item{
+    padding-right: 40px;
+    margin-top: 24px;
+}
+
+.header-link{
+    font-style: normal;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.hero-img{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+}
+
+.hero-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.section-first {
+    position: relative;
+    width: 1440px;
+    height: 2590px;
+}
+
+.first-list {
+    position: absolute;
+    width: 1128px;
+    height: 104px;
+    left: 156px;
+    top: 792px;
+}
