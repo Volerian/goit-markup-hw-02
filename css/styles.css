@@ -1,37 +1,269 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
-.header{
+/* -------------HEADER------------- */
+
+.header {
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+#up-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.header-list{
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-item {
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-link:is(:hover, :focus) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+}
+
+.header-address {
+}
+
+
+/* -----------HERO------------- */
+
+.hero{
+    background: #2E2F42;
+}
+
+.hero-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* -----------SECTION 1------------- */
+
+.first-header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.first-par{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/* -----------SECTION 2------------- */
+
+.second-head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.second-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+
+/* -----------SECTION 3------------- */
+
+.section-third{
+    background: #F4F4FD;
+}
+
+.third-head{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.third-header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.third-par{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.third-img{
+}
+
+
+/* -----------FOOTER------------- */
+
+.footer{
+    background: #2E2F42;
+}
+
+.footer-par{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+#down-logo{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+/* пример смены цвета при наведении на елемент
+.header-link:hover{
+    color: blue;
+} 
+пример смены цвета при зажимании елемента
+.header-link:focus{
+    color: blue;
+}
+это же, но компактнее
+.header-link:is(:hover, :focus) {
+    color: blue;
+*/
+
+/* .header{
     position: absolute;
     width: 1440px;
     height: 72px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
     flex-direction: row;
-
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-.header-logo{
+.list{
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24, 318, 24, 832;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     margin-top: 24px;
+    margin-left: 156px;
+    margin-right: 76px;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.header-navigation{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#logo{
+    color: #2e2f42;
 }
 
 .header-item{
@@ -40,18 +272,18 @@ body {
 }
 
 .header-link{
-    font-style: normal;
+    text-decoration: none;
 }
 
-.address {
+.header-address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-}
-
-.header-address{
+    list-style: none;
+    left: 1133px;
+    top: 24px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,14 +296,56 @@ body {
     height: 600px;
     left: 0px;
     top: 72px;
+    background: #2E2F42;
 }
 
 .hero-header {
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.header-button{
+    width: 105px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .section-first {
@@ -86,4 +360,4 @@ body {
     height: 104px;
     left: 156px;
     top: 792px;
-}
+} */
