@@ -46,7 +46,7 @@ body {
     text-decoration: none;
 }
 
-.header-link {
+.header-nav-link {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -55,7 +55,7 @@ body {
     color: #2E2F42;
 }
 
-.header-link:is(:hover, :focus) {
+.header-nav-link:is(:hover, :focus) {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -71,7 +71,7 @@ body {
     font-style: normal;
 }
 
-.header-adrs-item{
+.header-adrs-link{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
