@@ -249,6 +249,7 @@ body {
 /* -----------FILTER------------- */
 
 .filter-item{
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -264,6 +265,7 @@ body {
 }
 
 .filter-item:is(:hover, :focus){
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -274,6 +276,7 @@ body {
     letter-spacing: 0.04em;
     background-color: #404BBF;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* -----------PROJECTS------------- */
