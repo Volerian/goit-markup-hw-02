@@ -1,9 +1,13 @@
+:root{
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
+/* Studio */
 /* -------------HEADER------------- */
 
 .header {
@@ -114,8 +118,11 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
     color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -238,6 +245,76 @@ body {
     color: #E7E9FC;
 }
 
+/* Portfolio */
+/* -----------FILTER------------- */
+
+.filter-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #F4F4FD;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.filter-item:is(:hover, :focus){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+/* -----------PROJECTS------------- */
+
+.project-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.project-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* пример смены цвета при наведении на елемент
@@ -252,142 +329,3 @@ body {
 .header-link:is(:hover, :focus) {
     color: blue;
 */
-
-/* .header{
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.list{
-    list-style: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 24, 318, 24, 832;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.link{
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    color: #4d5ae5;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 24px;
-    margin-left: 156px;
-    margin-right: 76px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-#logo{
-    color: #2e2f42;
-}
-
-.header-item{
-    padding-right: 40px;
-    margin-top: 24px;
-}
-
-.header-link{
-    text-decoration: none;
-}
-
-.header-address{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    list-style: none;
-    left: 1133px;
-    top: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-.hero-img{
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
-    background: #2E2F42;
-}
-
-.hero-header {
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
-.header-button{
-    width: 105px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-button{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-
-.section-first {
-    position: relative;
-    width: 1440px;
-    height: 2590px;
-}
-
-.first-list {
-    position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
-} */
