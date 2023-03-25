@@ -80,6 +80,10 @@ body {
     color: #434455;
 }
 
+.header-adrs-link:is(:focus, :hover){
+    color: #404bbf
+}
+
 
 /* -----------HERO------------- */
 
