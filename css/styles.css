@@ -102,7 +102,6 @@ body {
 
 .hero-header{
     font-style: normal;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -142,8 +141,6 @@ body {
 }
 
 .first-par{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -155,7 +152,6 @@ body {
 
 .second-head{
     font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -180,7 +176,6 @@ body {
 
 .third-head{
     font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -204,8 +199,6 @@ body {
 }
 
 .third-par{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -237,8 +230,6 @@ body {
 }
 
 .footer-par{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -291,8 +282,6 @@ body {
 }
 
 .project-text{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
